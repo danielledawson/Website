@@ -7,7 +7,7 @@ body {
 h1 {
   color: black;
   border: 5px outset green;
-  text-shadow: 2px 2px 0px white, 4px 4px 0px #888;
+  text-shadow: 2px 2px 5px white;
   text-align: center;
   background-color: ForestGreen;
   font-size: 60px;
@@ -16,21 +16,24 @@ h1 {
 h2 {
   color: Black;
   border: 5px outset green;
-  text-shadow: 2px 2px 0px white, 4px 4px 0px #888;
+  text-shadow: 2px 2px 5px white;
   background-color: ForestGreen;
   text-align: center;
+  font-size: 25px;
 }
 h3{
   color: Black;
   border: 5px outset green;
-  text-shadow: 2px 2px 0px white, 4px 4px 0px #888;
+  text-shadow: 2px 2px 5px white;
   text-align: center;
   background-color: ForestGreen;
+  font-size: 25px;
 }
 h4{
   color: Black;
   border: 5px outset green;
-  text-shadow: 2px 2px 0px white, 4px 4px 0px #888;
+  text-shadow: 2px 2px 5px white;
   text-align: center;
   background-color: ForestGreen;
+  font-size: 25px;
 }
