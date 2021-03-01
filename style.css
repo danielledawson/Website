@@ -1,3 +1,36 @@
 body {
-  background-color: red;
+  background-color: lightgreen;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  color: black;
+  border: 5px outset green;
+  text-shadow: 2px 2px 0px white, 4px 4px 0px #888;
+  text-align: center;
+  background-color: ForestGreen;
+  font-size: 60px;
+}
+
+h2 {
+  color: Black;
+  border: 5px outset green;
+  text-shadow: 2px 2px 0px white, 4px 4px 0px #888;
+  background-color: ForestGreen;
+  text-align: center;
+}
+h3{
+  color: Black;
+  border: 5px outset green;
+  text-shadow: 2px 2px 0px white, 4px 4px 0px #888;
+  text-align: center;
+  background-color: ForestGreen;
+}
+h4{
+  color: Black;
+  border: 5px outset green;
+  text-shadow: 2px 2px 0px white, 4px 4px 0px #888;
+  text-align: center;
+  background-color: ForestGreen;
 }
