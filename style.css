@@ -1,10 +1,17 @@
-body {
-  background-color: lightgreen;
-  color: black;
-  font-family: 'Oswald', sans-serif;
+/* Website styles */
+* {
+  font-size: 100%;
+  text-align: 100%;
 }
 
-h1 {
+body {
+ background-color: lightgreen;
+  color: black;
+  font-family: helvetica, sans-serif;
+  font-size: 20px;
+}
+
+ h1 {
   color: black;
   border: 5px outset green;
   text-shadow: 2px 2px 5px white;
@@ -12,28 +19,30 @@ h1 {
   background-color: ForestGreen;
   font-size: 60px;
 }
-
-h2 {
-  color: Black;
-  border: 5px outset green;
-  text-shadow: 2px 2px 5px white;
-  background-color: ForestGreen;
-  text-align: center;
-  font-size: 25px;
+header h1 {
+	text-align: center;
 }
-h3{
-  color: Black;
-  border: 5px outset green;
-  text-shadow: 2px 2px 5px white;
-  text-align: center;
-  background-color: ForestGreen;
-  font-size: 25px;
+h2, h3, h4 {
+ color: black;
+ border: 5px outset green;
+ text-shadow: 2px 2px 5px white;
+ text-align: center;
+ background-color: ForestGreen;
+ font-size: 30px;
+ text-transform: capitalize;
 }
-h4{
-  color: Black;
-  border: 5px outset green;
-  text-shadow: 2px 2px 5px white;
-  text-align: center;
-  background-color: ForestGreen;
-  font-size: 25px;
+p {
+  font-weight: bold;
+  line-height: 2;
+}
+a {
+  color: darkblue;
+  text-decoration: none;
+  font-style: italic;
+}
+a:hover{
+  text-decoration: underline;
+}
+li{
+  line-height: 2;
 }
