@@ -22,12 +22,13 @@
 }
 
 #about {
-  background-color: lightgreen;
+  background-color: MediumSeaGreen;
   color: black;
 }
 
 body {
- background-color: lightgreen;
+    background-image: url(Images/more-leaves.png);
+      background-repeat: repeat;
   color: black;
   font-family: helvetica, sans-serif;
   font-size: 20px;
@@ -35,9 +36,10 @@ body {
   font-weight: bold;
 }
 
-img {
-  height: 300px;
+.box {
+  background-image: url(Images/more-leaves.jpg);
 }
+
 .list {
   float: left;
   width: 50%;
@@ -46,12 +48,12 @@ img {
 }
 .title{
   font-size: 60px;
-  text-decoration: underline;
+  text-decoration: none;
   color: black;
-  border: 5px outset green;
+  border: 5px outset MeadiumSeaGreen;
   text-shadow: 2px 2px 5px white;
   text-align: center;
-  background-color: ForestGreen;
+  background-color: MediumSeaGreen;
 }
 
 header h1 {
@@ -59,10 +61,10 @@ header h1 {
 }
 h2, h3, h4 {
  color: black;
- border: 5px outset green;
+ border: 5px outset MediumSeaGreen;
  text-shadow: 2px 2px 5px white;
  text-align: center;
- background-color: ForestGreen;
+ background-color: MediumSeaGreen;
  font-size: 30px;
  text-transform: capitalize;
 }
@@ -77,7 +79,7 @@ p {
   text-align: center;
 }
 a {
-  color: darkblue;
+  color: black;
   text-decoration: none;
   font-style: italic;
 }
