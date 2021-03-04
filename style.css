@@ -11,12 +11,19 @@
   float: left;
   padding: 3px;
   width: 25%;
+  margin: auto;
 }
 
 .row::after {
   content: "";
   clear: both;
   display: table;
+  margin: auto;
+}
+
+#about {
+  background-color: lightgreen;
+  color: black;
 }
 
 body {
@@ -25,16 +32,28 @@ body {
   font-family: helvetica, sans-serif;
   font-size: 20px;
   margin: 15px;
+  font-weight: bold;
 }
 
- h1 {
+img {
+  height: 300px;
+}
+.list {
+  float: left;
+  width: 50%;
+  padding-bottom: 20px;
+  height: 200px;
+}
+.title{
+  font-size: 60px;
+  text-decoration: underline;
   color: black;
   border: 5px outset green;
   text-shadow: 2px 2px 5px white;
   text-align: center;
   background-color: ForestGreen;
-  font-size: 60px;
 }
+
 header h1 {
 	text-align: center;
 }
