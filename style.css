@@ -22,14 +22,15 @@
 }
 
 #about {
-  background-color: MediumSeaGreen;
+  background-color: darkolivegreen;
   color: black;
 }
 
 body {
-    background-image: url(Images/more-leaves.png);
+    background-image: url(Images/tree.jpg);
       background-repeat: repeat;
   color: black;
+   text-shadow: 1px 1px 3px white;
   font-family: helvetica, sans-serif;
   font-size: 20px;
   margin: 0px;
@@ -59,22 +60,23 @@ nav ul li {
 }
 nav ul li a {
   padding: 28px;
-  font-family: "helvetica, sans-serif";
+  font-family: "helvetica";
+  font-weight: bold;
   text-transform:uppercase;
-  color: rgb(60, 179, 113);
+  color: black;
   font-size: 18px;
   text-decoration: none;
   display: block;
 }
 nav ul li a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
-  background: rgba(255, 255, 255, 0.1);
-  color: rgba(0, 35, 122, 0.7);
+  background: rgba(255, 255, 255, 0.2);
+  color: rgb(85, 107, 47);
 }
 /* end of menu */
 
 .box {
-  background-image: url(Images/more-leaves.jpg);
+  background-image: url(Images/tree.jpg);
 }
 
 .list {
@@ -87,33 +89,51 @@ nav ul li a:hover {
   font-size: 60px;
   text-decoration: none;
   color: black;
-  border: 5px outset MediumSeaGreen;
+  border: 5px outset darkolivegreen;
   text-shadow: 2px 2px 5px white;
   text-align: center;
-  background-color: MediumSeaGreen;
+  background-color: darkolivegreen;
 }
 
+.title2{
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+  border: 5px outset darkolivegreen;
+  text-shadow: 2px 2px 5px white;
+  text-align: center;
+  background-color: darkolivegreen;
+}
 header h1 {
 	text-align: center;
 }
+
 h2, h3, h4 {
  color: black;
- border: 5px outset MediumSeaGreen;
+ border: 5px outset darkolivegreen;
  text-shadow: 2px 2px 5px white;
  text-align: center;
- background-color: MediumSeaGreen;
+ background-color: darkolivegreen;
  font-size: 30px;
  text-transform: capitalize;
 }
 
 p {
+  background-color: rgb(240, 240, 240, 0.7);
+  font-size: 21px;
   font-weight: bold;
   line-height: 2;
   margin-top: 10px;
   margin-bottom: 20px;
   margin-right: 30px;
-  margin-left: 0;
+  margin-left: 30px;
   text-align: center;
+}
+.email {
+  text-align: center;
+  font-size: 25px;
+  background-color: rgb(240, 240, 240, 0.7);
+margin-top: 200px;
 }
 a {
   color: black;
@@ -123,10 +143,19 @@ a {
 a:hover{
   text-decoration: underline;
 }
-li{
-  line-height: 2;
-}
 
+li{
+  background-color: rgb(240, 240, 240, 0.7);
+  line-height: 2;
+  font-size: 20px;
+  list-style-type: none;
+  margin-right: 40px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.list2{
+  background-color: rgb(240, 240, 240, 0.0);
+}
 .slidershow{
   width: 700px;
   height: 400px;
