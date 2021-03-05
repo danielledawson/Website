@@ -21,7 +21,6 @@
   margin: auto;
 }
 
-
 #about {
   background-color: MediumSeaGreen;
   color: black;
@@ -36,7 +35,6 @@ body {
   margin: 0px;
   font-weight: bold;
 }
-
 
 /* start of menu  */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
@@ -78,7 +76,6 @@ nav ul li a:hover {
 .box {
   background-image: url(Images/more-leaves.jpg);
 }
-
 
 .list {
   float: left;
