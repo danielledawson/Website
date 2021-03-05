@@ -82,7 +82,7 @@ nav ul li a:hover {
 .list {
   float: left;
   width: 50%;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   height: 200px;
 }
 .title{
@@ -96,7 +96,7 @@ nav ul li a:hover {
 }
 
 .title2{
-  font-size: 40px;
+  font-size: 50px;
   text-decoration: none;
   color: black;
   border: 5px outset darkolivegreen;
@@ -106,8 +106,12 @@ nav ul li a:hover {
 }
 header h1 {
 	text-align: center;
+  margin-top: 20px;
+  padding-bottom: 10px;
 }
-
+footer{
+  margin-bottom: 10px;
+}
 h2, h3, h4 {
  color: black;
  border: 5px outset darkolivegreen;
